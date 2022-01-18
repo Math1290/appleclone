@@ -11,7 +11,30 @@
 <body>
     <section class="menu">
         <nav>
-            <ul>
+            <div class="pesquisa">
+                <input type="text" name="pesquisa" id="pesquisa" placeholder="Buscar em Apple.replic" onclick="pergunta()">
+
+                <button class="fechar"><a href="#" onclick="fecharlupa()">X</a></button>
+
+
+
+
+                <div class="dica">
+                    <div class="dica2">
+                        <p>Links Rápidos</p>
+
+                   <button><a href="#">Perguntas Frequentes sobre a Visita na Apple Store</a></button>
+
+                   <button><a href="#">Compra na Apple Store online</a></button>
+                   <button><a href="#">Acessórios</a></button>
+                <button><a href="#">AirPods</a></button>
+                   <button><a href="#">AirTag</a></button>
+                    </div>
+              
+                </div>
+                
+            </div>
+            <ul class="ulprincipal">
                 <li><img src="img (index)/apple-logo-e987a740dc96b30f8195d7d2c40d5e5a.svg" alt="logodaapple" width="24px"></li>
                 <li>Loja</li>
                 <li>Mac</li>
@@ -23,10 +46,36 @@
                 <li>Só na Apple</li>
                 <li>Acessórios</li>
                 <li>Suporte</li>
-                <li><img src="img (index)/lupa.png" alt="lupa" width="15px"></li>
-                <li><img src="img (index)/sacola.png" alt="sacola" width="15px"></li>
-                
+                <li ><img id="imgmostrar" src="img (index)/lupa.png" alt="lupa" width="15px" onclick="lupa('pesquisa')"></li>
+
+
+
+                <li id="sacola" ><img src="img (index)/sacola-de-compras.png" alt="sacola" width="30px">
+
+                    <div class="escondsacola">
+                        <nav  class="submenu">
+                            <ul>
+                                <span class="triângulo-para-cima"></span>
+                                 <p><a href="#"> Sua sacola está vazia</a></p>
+                                 <hr>
+                                 <li><img id="imgmenu" src="img (index)/sacola2.png" alt="sacola"> <a href="#">Sacola</a></li>
+                                 <hr>
+                                 <li> <img id="imgmenu" src="img (index)/favoritosss.png" alt="Favoritos"> <a href="#">Favoritos</a></li>
+                                 <hr>
+                                 <li><img id="imgmenu" src="img (index)/pedidooooss.png" alt="Pedidos"> <a href="#">Pedidos</a></li>
+                                 <hr>
+                                 <li><img id="imgmenu" src="img (index)/configuraçooooes.png" alt="Conta"><a href="#"> Conta</a></li>
+                                 <hr>
+                                 <li> <img id="imgmenu" src="img (index)/Entraaaar.png" alt="Entrar"><a href="#"> Entrar</a></li>
+                             </ul>
+                            
+                        </nav>
+                 
+                    </div>
+
             </ul>
+
+           
         </nav>
     </section>
 
@@ -57,5 +106,70 @@
              <img src="img (index)/iphone 13.png" alt="iphone 13 pro">
          </div>
    </section>
+
+
+   <section class="imagem3">
+       <h1>IPhone 13</h1>
+       <h2>Seu novo poder</h2>
+
+       <div>
+           <a href="#">Saiba mais ></a>
+           <a href="#">Comprar ></a>
+       </div>
+
+
+       <div>
+           <img id="img3" src="img (index)/iphone 13 diagonal.jpg" alt="iphone 13 com câmera na diagonal">
+       </div>
+   </section>
+
+
+
+   <section class="imagem4"> 
+            <div class="watch">
+                <p>Novo</p>
+             <div class="img4">
+                <img src="img (index)/logo watch.png" alt="logo do smart watch">
+             </div>
+                    <p id="p2">SERIES 7</p>
+                    <h2>Tela à vista.</h2>
+                    
+                    <div class="img4link">
+                        <a href="#">Saiba mais ></a>
+                    <a href="#">Comprar ></a>
+                    </div>
+
+                 
+
+                    <div class="img4applewatch">
+                        <img src="img (index)/transformar em.png" alt="apple watch">
+                    </div>
+            </div>
+
+
+            <div class="Airpods">
+                    <img src="img (index)/air pods2.png" alt="air pods (Fone bluethoot)">
+
+                    <h1>AirPods</h1>
+                    <h2>Tudo novo. Até o Áudio Especial</h2>
+
+                    <div class="airpods-link">
+                        <a href="#">Saiba mais ></a>
+                        <a href="#">comprar ></a>
+                    </div>
+            </div>  
+   </section>
+   <script src="index.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
