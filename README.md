@@ -1,7 +1,5 @@
-# 🔥README🔥 
-
+<h1>🔥README🔥 </h1>
 ## Technology used
-
 <ul>
 <li><img src = "https://cdn.iconscout.com/icon/free/png-256/html5-31-898996.png" width = "20px">HTML5</li>
 <li><img src = "https://cdn.iconscout.com/icon/free/png-256/css3-2038878-1720091.png" width = "20px">CSS3</li>
